@@ -6,25 +6,25 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #4E7566   ;
-  --secondary-color: #B87333 ;
-  --accent1-color: #F6E7CB;
-  --accent2-color: #C9AB00;
+  --primary-color: #F4EDED   ;
+  --secondary-color: #464D77 ;
+  --accent1-color: #423B0B;
+  --accent2-color: #C2E812;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Smooch";
   --paragraph-font: Koulen, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #000000;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #4E7566  ;
-  --nav-link-color: #000000;
-  --nav-background-color: #C9AB00;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #4E7566;
+  --headline-color-on-white: #596869;  /* headlines on a white background */ 
+  --headline-color-on-color: #F5F9E9; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #28262C; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #F9F5FF; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #14248A  ;
+  --nav-link-color: #8DE969;
+  --nav-background-color: #3D5A80;
+  --nav-hover-link-color: #2541B2;
+  --nav-hover-background-color: #61E294;
 }
 
 
