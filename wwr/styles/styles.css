@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Smooch&display=swap');
+
+
 .content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +10,7 @@ nav a {
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -27,6 +31,13 @@ main section {
 
 body {
     background-color: #F4EDED;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -42,6 +53,10 @@ nav a:hover {
     background-color: #3D5A80;
     color: #FFFFFF;
     text-decoration: none;
+    font-size: 22px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -55,14 +70,23 @@ nav a:hover {
 
 .msg {
     background-color: #99a1cc;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #464D77;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: #000000;
+    /*font-family: 'Koulen', cursive;*/
+    font-family: 'Smooch', cursive;
+    letter-spacing: .5em;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -75,6 +99,8 @@ h4 {
 
 .msg p {
     color: #000000;
+    font-size: 22px;
+    padding-bottom: 15px;
 }
 
 footer h3 {
@@ -97,4 +123,30 @@ footer a:hover {
 
 #hero-img {
     width: 100%;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+    margin-left: 100px;
+}
+
+main section img {
+    box-sizing: border-box;
+    margin-left: 20px;
 }
