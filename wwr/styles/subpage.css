@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Smooch&display=swap');
+
+
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 35px;
+}
+
+main section {
+    text-align: center;
+}
+
+body {
+    background-color: #F4EDED;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav a:hover {
+    background-color: #61E294;
+    color: #000000;
+}
+
+#background {
+    background-color: #99a1cc;
+}
+
+footer {
+    background-color: #464D77;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-title {
+    color: #000000;
+    /*font-family: 'Koulen', cursive;*/
+    font-family: 'Smooch', cursive;
+    letter-spacing: .5em;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h4 {
+    color: #000000;
+}
+
+footer h3 {
+    color: #FFFFFF;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: #61E294;
+    color: #000000;
+}
+
+.logo {
+    width: 80px;
+}
+
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+
+main section img {
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#teton {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#teton-box {
+    justify-self: center;
+    align-self: center;
+    grid-column: 1/6;
+    grid-row: 1/3;
+    z-index: -1;
+    margin: 100px;
+}
+
+#teton-img {
+    width: 100%;
+}
+
+.top-back {
+    background-color: #464D77;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    #background {
+        display: none;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
