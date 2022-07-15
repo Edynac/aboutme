@@ -2,8 +2,8 @@
 
 
 .content {
-    max-width: 1600px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
 }
 
 nav a {
@@ -24,13 +24,10 @@ body {
     margin: 0;
 }
 
-h2 {
-    margin: 0;
-}
-
 header {
     display: grid;
     grid-template-columns: 150px auto;
+    max-width: 100%;
 }
 
 nav a:hover {
@@ -44,6 +41,7 @@ nav a:hover {
 
 footer {
     background-color: #464D77;
+    width: 100%;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -107,6 +105,7 @@ nav {
 #teton {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #61E294;
 }
 
 #teton-box {
@@ -114,16 +113,26 @@ nav {
     align-self: center;
     grid-column: 1/6;
     grid-row: 1/3;
-    z-index: -1;
-    margin: 100px;
+    z-index: 2;
+    margin: 20px;
 }
 
 #teton-img {
     width: 100%;
+    padding: 10px;
+    z-index: 3;
+    background-color: #000000;
 }
 
 .top-back {
     background-color: #464D77;
+}
+
+#FAQ {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
 }
 
 @media screen and (max-width: 900px) {
@@ -148,4 +157,43 @@ nav {
     footer {
         margin-top: 25px;
     }
+}
+
+#thick-header {
+    display: grid;
+    align-content: flex-start;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.thin-header {
+    display: grid;
+    align-content: flex-start;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+p {
+    display: grid;
+    align-content: flex-start;
+    font-size: 1em;    
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+#FAQ {
+    font-size: 2em;
+    font-weight: bolder;
 }
