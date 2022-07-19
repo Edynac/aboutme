@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&family=Zilla+Slab:wght@300&display=swap');
+
+:root {
+    --primary-color: #E3DED4   ;
+    --secondary-color: #B01C2D ;
+    --accent1-color: #002164;
+    --accent2-color: #000000;
+  
+    --heading-font: "Signika Negative";
+    --paragraph-font: Zilla Slab, Helvetica, sans-serif;
+  
+    --headline-color-on-white: #B01C2D;
+    --headline-color-on-color: #002164;
+    --paragraph-color-on-white: #002164;
+    --paragraph-color-on-color: #B01C2D;
+    --paragraph-background-color: #E3DED4  ;
+    --nav-link-color: #E3DED4;
+    --nav-background-color: #B01C2D;
+    --nav-hover-link-color: #E3DED4;
+    --nav-hover-background-color: #002164;
+}
+
 .content {
     max-width: 100%;
     margin: 0 auto;
@@ -8,6 +30,15 @@ body {
     font-size: 22px;
     padding: 0;
     margin: 0;
+}
+
+.btn {
+    border: 2px solid #E3DED4;
+    background-color: #B01C2D;
+    color: #E3DED4;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 nav a {
@@ -21,6 +52,8 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 100%;
+    font-size: x-large;
+    font-family: var(--heading-font);
 }
 
 .headercolor {
@@ -28,8 +61,8 @@ header {
 }
 
 nav a:hover {
-    background-color: #61E294;
-    color: #000000;
+    background-color: #002164;
+    color: #E3DED4;
 }
 
 .logo {
@@ -87,6 +120,7 @@ footer a {
 .site_plan {
     color: #FFFFFF;
 }
+
 
 .introzone {
     display: grid;
