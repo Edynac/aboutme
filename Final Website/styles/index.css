@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&family=Zilla+Slab:wght@300&display=swap');
+
+:root {
+    --primary-color: #E3DED4   ;
+    --secondary-color: #B01C2D ;
+    --accent1-color: #002164;
+    --accent2-color: #000000;
+  
+    --heading-font: "Signika Negative";
+    --paragraph-font: Zilla Slab, Helvetica, sans-serif;
+  
+    --headline-color-on-white: #B01C2D;
+    --headline-color-on-color: #002164;
+    --paragraph-color-on-white: #002164;
+    --paragraph-color-on-color: #B01C2D;
+    --paragraph-background-color: #E3DED4  ;
+    --nav-link-color: #E3DED4;
+    --nav-background-color: #B01C2D;
+    --nav-hover-link-color: #E3DED4;
+    --nav-hover-background-color: #002164;
+}
+
 .content {
     max-width: 100%;
     margin: 0 auto;
@@ -21,6 +43,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 100%;
+    font-family: var(--heading-font);
 }
 
 .headercolor {
@@ -28,7 +51,7 @@ header {
 }
 
 nav a:hover {
-    background-color: #61E294;
+    background-color: #002164;
     color: #000000;
 }
 
@@ -118,6 +141,7 @@ footer a {
     background-color: #343432;
     color: #FFFFFF;
     border-radius: 10px;
+    font-family: var(--heading-font);
 }
 
 .photobox{
@@ -133,4 +157,5 @@ p {
     justify-self:center;
     align-self: end;
     margin: 20px;
+    font-family: var(--paragraph-font);
 }
