@@ -152,6 +152,8 @@ footer a {
     background-color: #343432;
     color: #FFFFFF;
     border-radius: 10px;
+    font-family: var(--heading-font);
+    font-size: x-large;
 }
 
 .photobox{
@@ -167,4 +169,5 @@ p {
     justify-self:center;
     align-self: end;
     margin: 20px;
+    font-family: var(--paragraph-font);
 }
